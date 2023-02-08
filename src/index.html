@@ -5,14 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <script defer src="assets/main.js"></script>
     <title>Pokedex</title>
 </head>
 
 <body>
-    <h1>Pokedex with Asyncronous Javascript</h1>
-    <div id="pokedex"></div>
+    <div class="main-container">
+        <h1>A Pokedex using Asyncronous Javascript</h1>
+        <p>Who are you looking for?</p>
+        <p>Search for a Pok&eacute;mon by name or using its National Pok&eacute;mon number.</p>
+
+
+        <div class="container">
+            <input type="text" id="search" placeholder="Search for a Pok&eacute;mon">
+            <div id="pokedex">
+                <!-- Pokedex will be rendered here -->
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
